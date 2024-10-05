@@ -7,7 +7,7 @@ pipeline{
     stages{
         stage('Clone'){
             steps{
-                git url:'https://github.com/ArchitAvd/service-registry',branch:'master'
+                git url:'https://github.com/gururaj-r123/config-server.git',branch:'main'
             }
         }
         stage('Build'){
